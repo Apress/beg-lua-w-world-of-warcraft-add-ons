@@ -1,0 +1,1 @@
+The script Hello World.lua does not need World of Warcraft, you can just execute it from within your IDE.

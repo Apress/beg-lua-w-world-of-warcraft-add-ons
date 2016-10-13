@@ -1,0 +1,6 @@
+## Interface: 30100
+## Title: Cooldown Monitor
+## RequiredDeps: SimpleTimingLib
+CooldownMonitor.xml
+CooldownMonitor.lua
+CooldownBars.lua

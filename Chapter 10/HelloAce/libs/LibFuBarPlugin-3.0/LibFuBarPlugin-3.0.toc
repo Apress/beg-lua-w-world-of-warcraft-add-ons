@@ -1,0 +1,15 @@
+﻿## Interface: 30000
+## Title: Lib: FuBarPlugin-3.0
+## Notes: A library to provide a means create a FuBar-compatible plugin.
+## Notes-zhTW: 一個提供支援FuBar所需功能的插件。
+## Notes-esES: Una biblioteca para crear plugins compatibles con Fubar.
+## Author: ckknight
+## eMail: ckknight@gmail.com
+## X-Credits: Arrowmaster
+## Version: 3.0
+## X-Category: Library
+## OptionalDeps: FuBar
+## X-License: LGPL v2.1
+
+LibStub\LibStub.lua
+lib.xml

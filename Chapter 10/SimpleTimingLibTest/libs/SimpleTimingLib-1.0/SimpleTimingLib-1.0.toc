@@ -1,0 +1,4 @@
+## Interface: 30100
+## Title: SimpleTimingLib-1.0 (Stand-alone)
+LibStub\LibStub.lua
+SimpleTimingLib-1.0.lua

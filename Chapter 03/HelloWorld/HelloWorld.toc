@@ -1,0 +1,5 @@
+## Interface: 30100
+## Title: Hello, World!
+## Title-deDE: Hallo, Welt!
+## Notes: The best "Hello, World!" addon!
+HelloWorld.lua

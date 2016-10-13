@@ -1,0 +1,6 @@
+## Interface: 30100
+## Title: Hello, World with Ace3
+## OptionalDeps: FuBar
+embeds.xml
+Core.lua
+FuBarPlugin.lua

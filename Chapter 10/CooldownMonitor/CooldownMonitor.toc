@@ -1,0 +1,7 @@
+## Interface: 30100
+## Title: Cooldown Monitor
+## RequiredDeps: DBM-Core
+embeds.xml
+CooldownMonitor.xml
+CooldownMonitor.lua
+CooldownBars.lua

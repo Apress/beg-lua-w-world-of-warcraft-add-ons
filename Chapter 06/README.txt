@@ -1,0 +1,1 @@
+All scripts in this folder don't need World of Warcraft, you can just execute them from within your IDE.

@@ -1,0 +1,6 @@
+## Interface: 30100
+## Title: Test Addon for SimpleTimingLib-1.0
+## OptionalDeps: SimpleTimingLib-1.0
+libs\LibStub\LibStub.lua
+libs\SimpleTimingLib-1.0\SimpleTimingLib-1.0.lua
+SimpleTimingLibTest.lua

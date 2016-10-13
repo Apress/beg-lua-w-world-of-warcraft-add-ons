@@ -1,0 +1,243 @@
+------------------------------------------------------------------------
+r58 | ckknight | 2008-10-14 20:30:21 +0000 (Tue, 14 Oct 2008) | 1 line
+Changed paths:
+   A /tags/WoW-3.0-release (from /trunk:57)
+
+Tagging as WoW-3.0-release.
+------------------------------------------------------------------------
+r57 | stanzilla | 2008-10-14 16:53:32 +0000 (Tue, 14 Oct 2008) | 1 line
+Changed paths:
+   M /trunk/LibFuBarPlugin-3.0.toc
+
+Update TOC for WotLK
+------------------------------------------------------------------------
+r56 | nevcairiel | 2008-10-12 11:39:40 +0000 (Sun, 12 Oct 2008) | 1 line
+Changed paths:
+   M /trunk/LibFuBarPlugin-3.0.toc
+
+Patch 3.0 prep: Remove LoD from Libraries that have no load manager (LoD+OptDep Bug)
+------------------------------------------------------------------------
+r55 | nevcairiel | 2008-10-09 21:52:42 +0000 (Thu, 09 Oct 2008) | 1 line
+Changed paths:
+   M /trunk/LibFuBarPlugin-3.0.lua
+
+WoWAce Post-Processing: Virtually inflate Library Revision numbers for proper upgrade path
+------------------------------------------------------------------------
+r54 | arrowmaster | 2008-10-06 23:27:01 +0000 (Mon, 06 Oct 2008) | 3 lines
+Changed paths:
+   M /trunk
+   M /trunk/.pkgmeta
+   M /trunk/LibFuBarPlugin-3.0.lua
+   M /trunk/LibFuBarPlugin-3.0.toc
+   M /trunk/lib.xml
+
+Merge FrameworkIndependent branch
+Automatic config option generation only works with LibRockConfig-1.0
+
+------------------------------------------------------------------------
+r53 | root | 2008-09-29 22:00:50 +0000 (Mon, 29 Sep 2008) | 1 line
+Changed paths:
+   A /trunk/.pkgmeta
+
+Facilitate WowAce-on-CurseForge transition
+------------------------------------------------------------------------
+r51 | root | 2008-09-29 20:58:17 +0000 (Mon, 29 Sep 2008) | 1 line
+Changed paths:
+   D /tmp/trunk/LibFuBarPlugin-3.0
+   A /trunk (from /tmp/trunk/LibFuBarPlugin-3.0:50)
+
+Importing old repo data under /trunk
+------------------------------------------------------------------------
+r48 | durcyn | 2008-07-18 22:02:01 +0000 (Fri, 18 Jul 2008) | 1 line
+Changed paths:
+   M /tmp/trunk/LibFuBarPlugin-3.0/LibFuBarPlugin-3.0.lua
+
+LibFuBarPlugin-3.0: fix silly zhCN localization again
+------------------------------------------------------------------------
+r47 | StingerSoft | 2008-07-18 00:28:07 +0000 (Fri, 18 Jul 2008) | 1 line
+Changed paths:
+   M /tmp/trunk/LibFuBarPlugin-3.0/LibFuBarPlugin-3.0.lua
+
+LibFuBarPlugin-3.0: added ruRU translation
+------------------------------------------------------------------------
+r46 | javek | 2008-05-03 18:33:09 +0000 (Sat, 03 May 2008) | 2 lines
+Changed paths:
+   M /tmp/trunk/LibFuBarPlugin-3.0/LibFuBarPlugin-3.0.lua
+
+LibFuBarPlugin-3.0:
+* Fix FUB-143, Detached tooltips now correctly open on load
+------------------------------------------------------------------------
+r44 | ckknight | 2008-04-26 20:26:20 +0000 (Sat, 26 Apr 2008) | 1 line
+Changed paths:
+   M /tmp/trunk/LibFuBarPlugin-3.0/LibFuBarPlugin-3.0.lua
+
+LibFuBarPlugin-3.0 - fix a bug with detaching tooltips. Thanks, Javek.
+------------------------------------------------------------------------
+r43 | nemes | 2008-04-13 03:38:03 +0000 (Sun, 13 Apr 2008) | 3 lines
+Changed paths:
+   M /tmp/trunk/LibFuBarPlugin-3.0/LibFuBarPlugin-3.0.toc
+
+LibFuBarPlugin-3.0:
+- TOC->2.4
+
+------------------------------------------------------------------------
+r42 | arrowmaster | 2008-04-01 07:16:23 +0000 (Tue, 01 Apr 2008) | 1 line
+Changed paths:
+   M /tmp/trunk/LibFuBarPlugin-3.0/LibFuBarPlugin-3.0.toc
+
+.You are not a special or unique snowflake. Get back in line and use the 'Lib: ...' title format like everybody else to save the sanity of those of us looking through an alpha sorted addon list
+------------------------------------------------------------------------
+r40 | arrowmaster | 2008-03-06 00:54:23 +0000 (Thu, 06 Mar 2008) | 1 line
+Changed paths:
+   M /tmp/trunk/LibFuBarPlugin-3.0/LibFuBarPlugin-3.0.lua
+
+LibFuBarPlugin-3.0: fix MINOR_VERSION to stop going negative
+------------------------------------------------------------------------
+r39 | ckknight | 2008-03-01 17:59:56 +0000 (Sat, 01 Mar 2008) | 1 line
+Changed paths:
+   M /tmp/trunk/LibFuBarPlugin-3.0/LibFuBarPlugin-3.0.lua
+
+LibFuBarPlugin-3.0 - remove a pointless :OnEmbedProfileEnable
+------------------------------------------------------------------------
+r38 | ckknight | 2008-02-24 02:15:11 +0000 (Sun, 24 Feb 2008) | 1 line
+Changed paths:
+   M /tmp/trunk/LibFuBarPlugin-3.0/LibFuBarPlugin-3.0.lua
+
+LibFuBarPlugin-3.0 - move around tricorner minimaps properly.
+------------------------------------------------------------------------
+r37 | ckknight | 2008-02-15 17:18:37 +0000 (Fri, 15 Feb 2008) | 1 line
+Changed paths:
+   M /tmp/trunk/LibFuBarPlugin-3.0/LibFuBarPlugin-3.0.lua
+
+LibFuBarPlugin-3.0 - properly move around SIDE-TOP and SIDE-BOTTOM minimaps
+------------------------------------------------------------------------
+r36 | ckknight | 2008-01-23 17:32:29 +0000 (Wed, 23 Jan 2008) | 1 line
+Changed paths:
+   M /tmp/trunk/LibFuBarPlugin-3.0/LibFuBarPlugin-3.0.lua
+
+LibFuBarPlugin-3.0 - should show text and icon by default.
+------------------------------------------------------------------------
+r35 | speeddymon | 2007-11-17 03:25:22 +0000 (Sat, 17 Nov 2007) | 2 lines
+Changed paths:
+   M /tmp/trunk/LibFuBarPlugin-3.0/LibFuBarPlugin-3.0.toc
+
+.trunk: Bump TOC's of more addons
+
+------------------------------------------------------------------------
+r34 | pettigrow | 2007-10-25 18:33:29 +0000 (Thu, 25 Oct 2007) | 1 line
+Changed paths:
+   M /tmp/trunk/LibFuBarPlugin-3.0/LibFuBarPlugin-3.0.lua
+
+LibFuBarPlugin-3.0: frFR Update
+------------------------------------------------------------------------
+r33 | sayclub | 2007-10-22 07:43:30 +0000 (Mon, 22 Oct 2007) | 2 lines
+Changed paths:
+   M /tmp/trunk/LibFuBarPlugin-3.0/LibFuBarPlugin-3.0.lua
+
+LibFuBarPlugin-3.0 : 
+- Updated localization koKR
+------------------------------------------------------------------------
+r32 | helium | 2007-10-22 06:51:32 +0000 (Mon, 22 Oct 2007) | 1 line
+Changed paths:
+   M /tmp/trunk/LibFuBarPlugin-3.0/LibFuBarPlugin-3.0.lua
+
+LibFuBarPlugin-3.0: updated zhTW localization
+------------------------------------------------------------------------
+r31 | cwdg | 2007-10-05 18:58:02 +0000 (Fri, 05 Oct 2007) | 2 lines
+Changed paths:
+   M /tmp/trunk/LibFuBarPlugin-3.0/LibFuBarPlugin-3.0.lua
+
+LibFuBarPlugin-3.0:
+- Add zhCN local
+------------------------------------------------------------------------
+r30 | ckknight | 2007-10-02 00:31:03 +0000 (Tue, 02 Oct 2007) | 1 line
+Changed paths:
+   M /tmp/trunk/LibFuBarPlugin-3.0/LibFuBarPlugin-3.0.lua
+
+LibFuBarPlugin-3.0 - fix issue with global Tablet.
+------------------------------------------------------------------------
+r29 | ckknight | 2007-09-30 18:48:52 +0000 (Sun, 30 Sep 2007) | 2 lines
+Changed paths:
+   M /tmp/trunk/LibFuBarPlugin-3.0/LibFuBarPlugin-3.0.lua
+
+LibFuBarPlugin-3.0 - ROCK-78
+- bugfix
+------------------------------------------------------------------------
+r28 | ckknight | 2007-09-25 18:47:54 +0000 (Tue, 25 Sep 2007) | 2 lines
+Changed paths:
+   M /tmp/trunk/LibFuBarPlugin-3.0/LibFuBarPlugin-3.0.toc
+
+.Lib* - upgrade TOC to 20200
+
+------------------------------------------------------------------------
+r27 | ckknight | 2007-09-25 07:27:59 +0000 (Tue, 25 Sep 2007) | 1 line
+Changed paths:
+   M /tmp/trunk/LibFuBarPlugin-3.0/LibFuBarPlugin-3.0.lua
+
+LibFuBarPlugin-3.0 - remove an errant not. Fix error messages slightly.
+------------------------------------------------------------------------
+r26 | ckknight | 2007-09-25 07:20:27 +0000 (Tue, 25 Sep 2007) | 1 line
+Changed paths:
+   M /tmp/trunk/LibFuBarPlugin-3.0/LibFuBarPlugin-3.0.lua
+
+LibFuBarPlugin-3.0 - possible bugfix
+------------------------------------------------------------------------
+r25 | ckknight | 2007-09-25 07:02:41 +0000 (Tue, 25 Sep 2007) | 1 line
+Changed paths:
+   M /tmp/trunk/LibFuBarPlugin-3.0/LibFuBarPlugin-3.0.lua
+
+LibFuBarPlugin-3.0 - fix iconFrame => new form typo.
+------------------------------------------------------------------------
+r24 | ckknight | 2007-09-25 06:25:31 +0000 (Tue, 25 Sep 2007) | 1 line
+Changed paths:
+   M /tmp/trunk/LibFuBarPlugin-3.0/LibFuBarPlugin-3.0.lua
+
+LibFuBarPlugin-3.0 - typo. SetIcon => SetFuBarIcon
+------------------------------------------------------------------------
+r23 | ckknight | 2007-09-25 04:24:52 +0000 (Tue, 25 Sep 2007) | 1 line
+Changed paths:
+   M /tmp/trunk/LibFuBarPlugin-3.0/LibFuBarPlugin-3.0.lua
+
+LibFuBarPlugin-3.0 - fix a few things
+------------------------------------------------------------------------
+r22 | ckknight | 2007-09-25 03:35:47 +0000 (Tue, 25 Sep 2007) | 1 line
+Changed paths:
+   M /tmp/trunk/LibFuBarPlugin-3.0/LibFuBarPlugin-3.0.lua
+
+LibFuBarPlugin-3.0 - remove :IsLoadOnDemand from mixins
+------------------------------------------------------------------------
+r21 | ckknight | 2007-09-25 03:27:47 +0000 (Tue, 25 Sep 2007) | 1 line
+Changed paths:
+   M /tmp/trunk/LibFuBarPlugin-3.0/LibFuBarPlugin-3.0.lua
+
+LibFuBarPlugin-3.0 - add more documentation
+------------------------------------------------------------------------
+r20 | ckknight | 2007-09-25 02:57:05 +0000 (Tue, 25 Sep 2007) | 1 line
+Changed paths:
+   M /tmp/trunk/LibFuBarPlugin-3.0/LibFuBarPlugin-3.0.lua
+
+LibFuBarPlugin-3.0 - commas are the devil's playthings.
+------------------------------------------------------------------------
+r19 | ckknight | 2007-09-25 02:56:27 +0000 (Tue, 25 Sep 2007) | 1 line
+Changed paths:
+   M /tmp/trunk/LibFuBarPlugin-3.0/LibFuBarPlugin-3.0.lua
+
+LibFuBarPlugin-3.0 - remove errant debug line
+------------------------------------------------------------------------
+r18 | ckknight | 2007-09-25 02:53:25 +0000 (Tue, 25 Sep 2007) | 2 lines
+Changed paths:
+   M /tmp/trunk/LibFuBarPlugin-3.0/LibFuBarPlugin-3.0.lua
+
+LibFuBarPlugin-3.0 - add some documentation (not finished)
+- fix a bug that prevented position from being changed.
+------------------------------------------------------------------------
+r17 | ckknight | 2007-09-25 02:14:50 +0000 (Tue, 25 Sep 2007) | 2 lines
+Changed paths:
+   A /tmp/trunk/LibFuBarPlugin-3.0
+   A /tmp/trunk/LibFuBarPlugin-3.0/LibFuBarPlugin-3.0.lua
+   A /tmp/trunk/LibFuBarPlugin-3.0/LibFuBarPlugin-3.0.toc
+   A /tmp/trunk/LibFuBarPlugin-3.0/lib.xml
+
+LibFuBarPlugin-3.0 - initial commit. Based primarily on FuBarPlugin-2.0
+
+------------------------------------------------------------------------

@@ -1,0 +1,10 @@
+## Interface: 30100
+## SavedVariables: Poker_TableBrowserSavedVars
+## RequiredDeps: SimpleTimingLib
+localization.en.lua
+TableBrowser.xml
+TableBrowser.lua
+PokerFunctions.lua
+Server.lua
+Client.xml
+Client.lua

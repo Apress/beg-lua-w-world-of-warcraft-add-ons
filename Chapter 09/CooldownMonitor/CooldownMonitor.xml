@@ -1,0 +1,68 @@
+<Ui xmlns="http://www.blizzard.com/wow/ui/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.blizzard.com/wow/ui/
+..\FrameXML\UI.xsd">
+	<StatusBar name="CooldownBarTemplate" enableMouse="true" virtual="true" minValue="0" maxValue="1" inherits="CastingBarFrameTemplate">
+		<Size>
+			<AbsDimension x="195" y="13"/>
+		</Size>
+		<Layers>
+			<Layer level="ARTWORK">
+				<!-- add a fontstring that shows the timer -->
+				<FontString name="$parentTimer" justifyH="RIGHT" inherits="GameFontHighlight">
+					<Anchors>
+						<Anchor point="RIGHT">
+							<Offset>
+								<AbsDimension x="-6" y="3"/>
+							</Offset>
+						</Anchor>
+					</Anchors>
+				</FontString>
+			</Layer>
+		</Layers>
+		<Scripts>
+			<OnShow/>
+			<OnEvent/>
+			<OnLoad> <!-- modify the text and icon -->
+				_G[self:GetName().."Text"]:ClearAllPoints()
+				_G[self:GetName().."Text"]:SetPoint("LEFT", 6, 3)
+				_G[self:GetName().."Text"]:SetWidth(150)
+				_G[self:GetName().."Text"]:SetJustifyH("LEFT")
+				_G[self:GetName().."Icon"]:ClearAllPoints()
+				_G[self:GetName().."Icon"]:SetPoint("RIGHT", self, "LEFT", -5, 2)
+				_G[self:GetName().."Icon"]:SetWidth(20)
+				_G[self:GetName().."Icon"]:SetHeight(20)
+				self:RegisterForDrag("LeftButton")
+			</OnLoad>
+			<OnUpdate> <!-- the function's head is function(self, elapsed) -->
+				self.obj:Update(elapsed)
+			</OnUpdate>
+			<OnDragStart>
+				if self:GetParent().unlocked then
+					self:GetParent():StartMoving()
+				end
+			</OnDragStart>
+			<OnDragStop>
+				self:GetParent():StopMovingOrSizing()
+			</OnDragStop>
+			<OnHide>
+				self:GetParent():StopMovingOrSizing()
+			</OnHide>
+		</Scripts>
+	</StatusBar>
+	<Frame name="CooldownMonitor_Anchor" parent="UIParent" movable="true">
+		<Anchors>
+			<Anchor point="CENTER">
+				<Offset>
+					<AbsDimension x="300" y="0"/>
+				</Offset>
+			</Anchor>
+		</Anchors>
+		<Size>
+			<AbsDimension x="1" y="1"/>
+		</Size>
+		<Scripts>
+			<OnLoad>
+				self:SetUserPlaced(1)
+			</OnLoad>
+		</Scripts>
+	</Frame>
+</Ui>

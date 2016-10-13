@@ -1,0 +1,12 @@
+## Interface: 30100
+## Title: Hello, World with DBM
+## LoadOnDemand: 1
+## RequiredDeps: DBM-Core
+## SavedVariablesPerCharacter: DBMHelloWorld_SavedVars, DBMHelloWorld_SavedStats
+## X-DBM-Mod: 1
+## X-DBM-Mod-Category: Other
+## X-DBM-Mod-Name: Hello, World
+## X-DBM-Mod-Sort: 1
+## X-DBM-Mod-LoadZone: Ironforge,Orgrimmar
+localization.en.lua
+HelloWorld.lua

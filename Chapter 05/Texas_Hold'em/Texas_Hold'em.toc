@@ -1,0 +1,6 @@
+## Interface: 30100
+## Texas Hold'em Poker
+## SavedVariables: Poker_TableBrowserSavedVars
+localization.en.lua
+TableBrowser.xml
+TableBrowser.lua
